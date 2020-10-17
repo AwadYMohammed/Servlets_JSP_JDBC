@@ -1,3 +1,4 @@
+<%@ page import="com.awad.jsp.*" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -7,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Let's have some fun: <%= com.awad.jsp.Utils.makeItLower("FUN FUN FUN") %>
+Let's have some fun: <%= Utils.makeItLower("FUN FUN FUN") %>
 </body>
 </html>
